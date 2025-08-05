@@ -32,14 +32,11 @@ public class Main {
         orden2.calcularTotal();
         orden2.mostrarOrden();
 
-        Orden orden3 = new Orden();
-        orden3.agregarProductos(producto2);
-        orden3.agregarProductos(producto1);
-
-        orden3.calcularTotal();
-        orden3.mostrarOrden();
-
-        Orden orde4 = new Orden();
-
+        //Probamos el código de la clase OrdenCodigoUdemy
+        OrdenCodigoUdemy orde1 = new OrdenCodigoUdemy();
+        orde1.agregarProductos(producto1);
+        orde1.agregarProductos(producto2);
+        orde1.calcularTotal();
+        orde1.mostrarOrden();
     }
 }
