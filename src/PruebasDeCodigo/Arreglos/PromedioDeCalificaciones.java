@@ -1,4 +1,4 @@
-package CursoCompletoJava.Arreglos;
+package PruebasDeCodigo.Arreglos;
 
 import java.util.Scanner;
 

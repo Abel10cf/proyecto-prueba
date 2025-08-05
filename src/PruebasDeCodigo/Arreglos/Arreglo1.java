@@ -1,4 +1,4 @@
-package CursoCompletoJava.Arreglos;
+package PruebasDeCodigo.Arreglos;
 
 public class Arreglo1 {
     public static void main(String[] args) {
