@@ -7,12 +7,12 @@ public class Orden {
     private final int idOrden;
     private Producto producto;
     private Producto[] productos = new Producto[5];
-    //private final static int LIM_MAX = 5;
     private int contadorProductos;
+    private static int contadorOrden;
 
     public Orden() {
         System.out.print("Id Orden: ");
-        System.out.println(this.idOrden = contadorProductos);
+        System.out.println(this.idOrden = ++Orden.contadorOrden);
     }
 
     public void agregarProductos(Producto producto){
